@@ -2,6 +2,7 @@
 //
 // VARIABLES
 //
+@import url(https://fonts.googleapis.com/css?family=Lato:400,700|Playfair+Display:400,700);
 
 // Colors
 $blue: #4183C4;
@@ -15,9 +16,9 @@ $lightGray: #eee;
 $white: #fff;
 
 // Font stacks
-$helvetica: Helvetica, Arial, sans-serif;
+$body: "Lato",Helvetica, Arial, sans-serif;
 $helveticaNeue: "Helvetica Neue", Helvetica, Arial, sans-serif;
-$georgia: Georgia, serif;
+$serif: "Playfair Display", Georgia, serif;
 
 // Mobile breakpoints
 @mixin mobile {
